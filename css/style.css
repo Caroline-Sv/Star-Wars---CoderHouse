@@ -41,19 +41,21 @@ header{
     
 }
 .menu{
-    width: 80%;
-    margin-bottom: -90px;
+    width: 100%;
+    margin-bottom:0px;
     align-items: center;
+    text-align: center;
     
   
 }
 .menu nav a{
     color: #ffffff;
     text-decoration: none;
-    padding-right: 50px;
+    padding-right: 30px;
     font-size: 18px;
     position: relative;
     margin-bottom: auto;
+  
 
 }
 .menu nav a::after{
