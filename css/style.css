@@ -135,3 +135,20 @@ label {
 h1{
     color: #fff;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+   
+}
+
+img {
+    width: 200px;
+    height: auto;
+   margin: 0 20px;
+}
