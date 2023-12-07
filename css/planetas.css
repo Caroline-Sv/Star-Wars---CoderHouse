@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+header {
+    background-color: black;
+    box-shadow: 0px 3px 10px #464646;
+    width: 100%;
+    background-image: url(/img/backgroud_header.png);
+    margin: auto;
+}
+
+.title-text-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.text {
+    max-width: 800px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.menu {
+    width: 100%;
+    margin-bottom: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: auto;
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, rgb(111, 113, 57), #ffffff);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after {
+    width: 30px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 100px;
+    text-align: center;
+}
+
+.sociais2 button {
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), #000000);
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociais2 button i {
+    font-size: 40px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociais2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.planets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.planet-card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.planet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.planet-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.planet-info h3 {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.planet-info p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #555;
+}
