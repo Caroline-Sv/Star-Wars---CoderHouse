@@ -135,3 +135,35 @@ label {
 h1{
     color: #fff;
 }
+
+.titulo {
+    color: white;
+    padding-bottom: 20px;
+}
+.textoIntro {
+    color: white;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBanner {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabelaNaves {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    padding: 20px;
+}
+
+.cardAvulso {
+    padding: 20px;
+}
+
