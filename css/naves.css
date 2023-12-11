@@ -111,11 +111,33 @@ footer {
    
     background-color: black;
  }
+
  .capa1 img{
    
     width: 100% ;
     cursor: pointer;
     background-size: cover;
-  
+ }
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 20px;
+
+ }
+
+ .titulo {
+    color: white;
+ 
+ }
+
+ .texto {
+    color: white;
+
+ }
+ .cards {
+    display: flex;
+    flex-direction: row;
 
  }
