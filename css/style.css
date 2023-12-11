@@ -149,7 +149,7 @@ h1{
     flex-direction: column;
 }
 
-.imgBanner {
+.imagem-lateral {
     display: flex;
     flex-direction: column;
 }
@@ -165,5 +165,6 @@ h1{
 
 .cardAvulso {
     padding: 20px;
+    color: white;
 }
 
