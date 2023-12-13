@@ -163,11 +163,11 @@ cardAvulso {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: repeat(2 1fr 1fr);
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2 200px 200px);
     grid-template-areas: 
-        "titulo titulo imagem-lateral imagem-lateral"
-        "texto-intro texto-intro imagem-lateral imagem-lateral";
+        "titulo imagem-lateral"
+        "texto imagem-lateral";
     column-gap: 20px;
     row-gap: 20px;
     width: 1024px;
@@ -207,27 +207,22 @@ cardAvulso {
 }
 
 .botoes {
-    display: grid;
+    width: 400px;
+
 }
 
 .button1 {
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     background-color: rgb(198, 205, 0);
     border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    border: none;
 }
 
 .button2 {
     padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     background-color: rgb(198, 205, 0);
     border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    border: none;
 }
 
 .cards {
