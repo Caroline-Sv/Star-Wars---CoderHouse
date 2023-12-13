@@ -106,22 +106,20 @@ footer {
     text-decoration: none;
     margin: 0 20px;
   }
+
  main{
-   
     display: flex;
     align-items: center;
     justify-content: center;
-   
     background-color: black;
  }
+
  .capa1 img{
-   
     width: 100% ;
     cursor: pointer;
     background-size: cover;
-  
-
  }
+
  .campo {
     margin-bottom: 15px;
     color: #fff;
@@ -132,43 +130,122 @@ label {
     margin-bottom: 5px;
    
 }
-h1{
-    color: #fff;
+
+grid-container {
+    grid-area: grid-container;
+}
+
+
+h1 {
+    color: #ffffff;
+    padding-bottom: 20px;
+
+}
+
+texto {
+    color: #ffffff;
+    padding-bottom: 20px;
+    grid-area: titulo;
+}
+
+texto-intro {
+    grid-area: texto-intro;
+}
+
+imagem-lateral {
+    grid-area: imagem-lateral;
+
+}
+
+cardAvulso {
+    grid-area: cardAvulso;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: repeat(2 1fr 1fr);
+    grid-template-areas: 
+        "titulo titulo imagem-lateral imagem-lateral"
+        "texto-intro texto-intro imagem-lateral imagem-lateral";
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 1024px;
+
+}
+
+.info {
+    width: 400px;
+    padding-right: 20px;
 }
 
 .titulo {
-    color: white;
+    color: #ffffff;
     padding-bottom: 20px;
 }
-.textoIntro {
-    color: white;
-}
 
-.infos {
-    display: flex;
-    flex-direction: column;
+.texto {
+    color: #ffffff;
+    padding-bottom: 20px;
+  
 }
 
 .imagem-lateral {
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.grid-container-cards {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: repeat(2 100px 100px);
+    grid-template-areas: 
+    "cardAvulso cardAvulso cardAvulso cardAvulso"
+    "cardAvulso cardAvulso cardAvulso cardAvulso";
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.botoes {
+    display: grid;
+}
+
+.button1 {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(198, 205, 0);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
-.tabelaNaves {
-    display: flex;
-    width: 100%;
+.button2 {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(198, 205, 0);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4 200px 200px 200px 200px);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "cardAvulso cardAvulso cardAvulso cardAvulso"
+    "cardAvulso cardAvulso cardAvulso cardAvulso";
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .cardAvulso {
     padding: 20px;
     color: white;
 }
+
+
+
 
