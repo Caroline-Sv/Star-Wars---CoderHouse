@@ -113,19 +113,38 @@ main {
     background-color: black;
 }
 
+.title,
+.text,
 .planets {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     max-width: 1000px;
     margin: 20px auto;
+    padding: 0 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.planets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
 }
 
 .planet-card {
-    width: 200px;
-    margin: 10px;
+    width: 100%;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .planet-card img {
