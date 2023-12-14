@@ -9,6 +9,7 @@
 
 .container {
     display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -48,13 +49,19 @@ header {
     text-align: center;
 }
 
+.menu nav {
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os itens verticalmente */
+    align-items: center;
+}
+
 .menu nav a {
     color: #ffffff;
     text-decoration: none;
-    padding-right: 30px;
+    padding: 1rem;
     font-size: 18px;
     position: relative;
-    margin-bottom: auto;
+    margin-bottom: 10px; /* Ajustado o margin-bottom para espaçamento entre os itens */
 }
 
 .menu nav a::after {
@@ -74,17 +81,17 @@ header {
 
 main {
     display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     background-color: black;
     padding: 20px;
 }
 
-
 table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 10px; 
+    border-collapse: collapse; /* Alterado para collapse */
+    margin-top: 20px; /* Adicionado um margin-top para espaçamento entre a tabela e o conteúdo acima */
 }
 
 table img {
@@ -93,16 +100,10 @@ table img {
     display: block;
 }
 
-
 td {
     padding: 10px;
-}
-
-
-table {
     border: 2px solid #333;
 }
-
 
 tr {
     margin-bottom: 10px;
@@ -111,8 +112,16 @@ tr {
 footer {
     background-color: #000000;
     color: #fff;
-    padding: 100px;
+    padding: 20px; /* Ajustado para uma quantidade menor de preenchimento */
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    align-items: center;
+}
+
+.sociais2 {
+    display: flex;
+    justify-content: center;
 }
 
 .sociais2 button {
@@ -121,6 +130,7 @@ footer {
     background-image: linear-gradient(45deg, rgb(0, 0, 0), #000000);
     border: none;
     cursor: pointer;
+    margin: 5px;
     align-items: center;
     justify-content: center;
 }
@@ -128,13 +138,6 @@ footer {
 .sociais2 button i {
     font-size: 40px;
     color: #ffffff;
-    align-items: center;
-    justify-content: center;
-}
-
-.sociais2 {
-    align-items: center;
-    justify-content: center;
 }
 
 .links a {
