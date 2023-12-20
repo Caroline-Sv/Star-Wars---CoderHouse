@@ -6,11 +6,13 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:first baseline;
     padding: 10px;
+    align-items:normal;
 }
    
 header{
