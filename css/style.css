@@ -15,14 +15,27 @@
     align-items:normal;
 }
    
-header{
+/* header{
     background-color: black;
     box-shadow: 0px 3px 10px #464646;
     width: 100%;
     background-image: url(/img/backgroud_header.png);
     margin: auto;
     
+} */
+header {
+    background-color: black;
+    box-shadow: 0px 3px 10px #464646;
+    width: 100%;
+    background-image: url(/img/backgroud_header.png);
+   
 }
+
+.navbar {
+    background-color: transparent; 
+}
+
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
