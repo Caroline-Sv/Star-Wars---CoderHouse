@@ -132,7 +132,6 @@ label {
 }
 
 
-
 .grid-container {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
@@ -143,12 +142,12 @@ label {
     column-gap: 20px;
     row-gap: 20px;
     width: 1024px;
+    column-width: 900px;
 
 }
 
 grid-container {
     grid-area: grid-container;
-    align-items: center;
 }
 
 h1 {
