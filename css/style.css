@@ -148,8 +148,8 @@ label {
 
 grid-container {
     grid-area: grid-container;
+    align-items: center;
 }
-
 
 h1 {
     color: #ffffff;
