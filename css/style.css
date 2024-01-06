@@ -150,6 +150,11 @@ grid-container {
     grid-area: grid-container;
 }
 
+titulo {
+    column-width: auto;
+    position: relative;
+}
+
 h1 {
     color: #ffffff;
     padding-bottom: 20px;
