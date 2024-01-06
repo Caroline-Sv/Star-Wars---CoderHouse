@@ -136,18 +136,20 @@ label {
 .grid-container {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: repeat(4 1fr 1fr 1fr 1fr);
+    grid-template-rows: repeat(2 1fr 1fr);
     grid-template-areas: 
         "titulo titulo imagem-lateral imagem-lateral"
         "texto texto imagem-lateral imagem-lateral";
     column-gap: 20px;
     row-gap: 20px;
-    width: 1024px;
 
 }
 
 grid-container {
     grid-area: grid-container;
+    width: 1024px;
+    align-content: center;
+
 }
 
 
@@ -208,6 +210,7 @@ cardAvulso {
     "cardAvulso cardAvulso cardAvulso cardAvulso";
     column-gap: 20px;
     row-gap: 20px;
+    align-content: center;
 }
 
 .botoes {
@@ -220,6 +223,7 @@ cardAvulso {
     background-color: rgb(198, 205, 0);
     border-radius: 10px;
     border: none;
+    text-decoration: none;
 }
 
 .button2 {
@@ -227,6 +231,7 @@ cardAvulso {
     background-color: rgb(198, 205, 0);
     border-radius: 10px;
     border: none;
+    text-decoration: none;
 }
 
 .cards {
@@ -236,7 +241,7 @@ cardAvulso {
     grid-template-areas: 
     "cardAvulso cardAvulso cardAvulso cardAvulso"
     "cardAvulso cardAvulso cardAvulso cardAvulso";
-    column-gap: 20px;
+    column-gap: 10px;
     row-gap: 20px;
 }
 
