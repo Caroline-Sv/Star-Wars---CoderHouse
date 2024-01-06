@@ -132,6 +132,47 @@ label {
     margin-bottom: 5px;
    
 }
+
 h1{
     color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 400px repeat(4 100px);
+    grid-gap: 40px;
+    grid-template-areas:
+        "header"
+        "paragrafo paragrafo"
+        "imgParagrafo imgParagrafo"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    grid-area: content;
+}
+
+.signup {
+    grid-area: signup;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .gridContainer {
+        grid-template-areas:
+            "header header header"
+            "paragrafo imgParagrafo imgParagrafo"
+            "footer footer footer";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px auto 200px;
+    }
 }
