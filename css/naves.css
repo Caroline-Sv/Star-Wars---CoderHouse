@@ -9,7 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -54,7 +54,6 @@ header {
     font-size: 18px;
     position: relative;
     margin-bottom: auto;
-
 }
 
 .menu nav a::after {
@@ -71,6 +70,13 @@ header {
 .menu nav a:hover::after {
     width: 30px;
 }
+
+
+
+
+/* Espaço reservado para o main*/
+
+
 
 
 
@@ -110,4 +116,3 @@ footer {
     text-decoration: none;
     margin: 0 20px;
 }
- 
