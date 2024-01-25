@@ -7,8 +7,9 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
-.container{
+.container {
     display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     padding: 10px;

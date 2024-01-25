@@ -9,10 +9,10 @@
 
 .container {
     display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
-    justify-content:first baseline;
+    justify-content: center;
     padding: 10px;
-    align-items:normal;
 }
    
 header{

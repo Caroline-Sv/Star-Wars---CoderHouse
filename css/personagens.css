@@ -27,6 +27,13 @@ header {
     text-align: center;
     margin: 20px 0;
 }
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
+}
 
 .title {
     font-size: 2em;
