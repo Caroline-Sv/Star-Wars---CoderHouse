@@ -9,7 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -74,7 +74,6 @@ header {
 
 
 
-/* Espaço reservado para o main*/
 
 
 
@@ -83,10 +82,10 @@ header {
 footer {
     background-color: #000000;
     color: #fff;
-    padding: 20px; /* Ajustado para uma quantidade menor de preenchimento */
+    padding: 20px; 
     text-align: center;
     display: flex;
-    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    flex-direction: column; 
     align-items: center;
 }
 

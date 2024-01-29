@@ -9,8 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
-    align-items: center;
+    flex-direction: column; 
     justify-content: center;
     padding: 10px;
 }
