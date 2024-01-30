@@ -9,7 +9,8 @@
 
 .container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    align-items: center;
     justify-content: center;
     padding: 10px;
 }
@@ -25,6 +26,13 @@ header {
 .title-text-container {
     text-align: center;
     margin: 20px 0;
+}
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
 }
 
 .title {
@@ -71,38 +79,35 @@ header {
 }
 
 
-
- main{
-   
+main {
     display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
-   
     background-color: black;
- }
- .capa1 img{
-   
-    width: 100% ;
-    cursor: pointer;
-    background-size: cover;
-  
-
- }
- .campo {
-    margin-bottom: 15px;
-    color: #fff;
+    padding: 20px;
 }
 
-label {
+table {
+    width: 100%;
+    border-collapse: collapse; /* Alterado para collapse */
+    margin-top: 20px; /* Adicionado um margin-top para espaçamento entre a tabela e o conteúdo acima */
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin-bottom: 5px;
-   
-}
-h1{
-    color: #fff;
 }
 
+td {
+    padding: 10px;
+    border: 2px solid #333;
+}
 
+tr {
+    margin-bottom: 10px;
+}
 
 footer {
     background-color: #000000;
