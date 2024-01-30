@@ -9,7 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -71,11 +71,50 @@ header {
     width: 30px;
 }
 
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+td {
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+tr {
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #000000;
-    color: #ffffff;
-    padding: 100px;
+    color: #fff;
+    padding: 20px; 
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sociais2 {
+    display: flex;
+    justify-content: center;
 }
 
 .sociais2 button {
@@ -84,6 +123,7 @@ footer {
     background-image: linear-gradient(45deg, rgb(0, 0, 0), #000000);
     border: none;
     cursor: pointer;
+    margin: 5px;
     align-items: center;
     justify-content: center;
 }
@@ -91,17 +131,47 @@ footer {
 .sociais2 button i {
     font-size: 40px;
     color: #ffffff;
-    align-items: center;
-    justify-content: center;
-}
-
-.sociais2 {
-    align-items: center;
-    justify-content: center;
 }
 
 .links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.sociais2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sociais2 button {
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), #000000);
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociais2 button i {
+    font-size: 40px;
     color: #ffffff;
+}
+
+.links a {
+    color: #fff;
     text-decoration: none;
     margin: 0 20px;
 }
