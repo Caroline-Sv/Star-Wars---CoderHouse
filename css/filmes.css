@@ -7,7 +7,6 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-
 .container {
     display: flex;
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
@@ -83,11 +82,13 @@ header {
  main{
    
     display: flex;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-   
     background-color: black;
- }
+    padding: 20px;
+}
+ 
  .capa1 img{
    
     width: 100% ;
