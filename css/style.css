@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 *{
+=======
+* {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
 
+<<<<<<< HEAD
 .container-header {
+=======
+.container {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     display: flex;
-    align-items: center;
+    flex-direction: column; 
     justify-content: center;
     padding: 10px;
 
 }
 
+<<<<<<< HEAD
 
 
 /* HEADER - IGUAL PARA TODOS - NÃO MEXER */
@@ -24,13 +34,16 @@
 
 
 header{
+=======
+header {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     background-color: black;
     box-shadow: 0px 3px 10px #464646;
     width: 100%;
     background-image: url(/img/backgroud_header.png);
     margin: auto;
-    
 }
+<<<<<<< HEAD
 
 .nav-bar{
     display: flex;
@@ -41,10 +54,20 @@ header{
 
 .logo, .social{
     width: 25%;
-    text-align: center;
+=======
 
+.title-text-container {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
+    text-align: center;
+    margin: 20px 0;
 }
 
+.title {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+<<<<<<< HEAD
 .logo img{
     width:200px ;
     cursor: pointer;
@@ -54,20 +77,37 @@ header{
 }
 
 .menu{
+=======
+.text {
+    max-width: 800px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.menu {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     width: 100%;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     align-items: center;
     text-align: center;
+<<<<<<< HEAD
   
 }
 
 .menu nav a{
+=======
+}
+
+.menu nav a {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     color: #ffffff;
     text-decoration: none;
     padding-right: 30px;
     font-size: 18px;
     position: relative;
     margin-bottom: auto;
+<<<<<<< HEAD
 
 }
 
@@ -84,11 +124,28 @@ header{
 }
 
 .menu nav a:hover::after{
+=======
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, rgb(111, 113, 57), #ffffff);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after {
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     width: 30px;
 }
 
 
 
+<<<<<<< HEAD
 /* MAIN - INSERIR O CÓDIGO DO CONTEÚDO DA PÁGINA */
 
 
@@ -271,6 +328,72 @@ footer {
     text-decoration: none;
     margin: 0 20px;
   }
+=======
+ main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: black;
+ }
+ .capa1 img{
+   
+    width: 100% ;
+    cursor: pointer;
+    background-size: cover;
+  
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
+
+
+<<<<<<< HEAD
+
+=======
+label {
+    display: block;
+    margin-bottom: 5px;
+   
+}
+h1{
+    color: #fff;
+}
 
 
 
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px; /* Ajustado para uma quantidade menor de preenchimento */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    align-items: center;
+}
+
+.sociais2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sociais2 button {
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), #000000);
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociais2 button i {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+>>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df

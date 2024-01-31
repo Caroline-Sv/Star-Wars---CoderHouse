@@ -9,11 +9,7 @@
 
 .container {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
-=======
-    flex-direction: column; 
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -30,24 +26,15 @@ header {
 .title-text-container {
     text-align: center;
     margin: 20px 0;
-<<<<<<< HEAD
-=======
+}
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
 }
 
-.title {
-    font-size: 2em;
-    color: #ffffff;
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
-}
-
-.text {
-    max-width: 800px;
-    color: #ffffff;
-    text-align: center;
-    margin: auto;
-}
-
-<<<<<<< HEAD
 .title {
     font-size: 2em;
     color: #ffffff;
@@ -60,8 +47,6 @@ header {
     margin: auto;
 }
 
-=======
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
 .menu {
     width: 100%;
     margin-bottom: 0px;
@@ -76,7 +61,6 @@ header {
     font-size: 18px;
     position: relative;
     margin-bottom: auto;
-<<<<<<< HEAD
 }
 
 .menu nav a::after {
@@ -93,136 +77,45 @@ header {
 .menu nav a:hover::after {
     width: 30px;
 }
+
 
 main {
     display: flex;
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     background-color: black;
-    flex-wrap: wrap;
-    
- }
-
-.row1 {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-
-}
-
-.row1 .titulo {
-    color: #ffffff;
-    padding-bottom: 20px;
-    width: 600px;
-    margin-top: 60px;
-    text-align: left; 
- 
-}
-
-.row1 .texto {
-    color: #ffffff;
-    padding-bottom: 100px;
-    font-size: 18px;
-    width: 600px;
-    text-align: left;
-    flex-wrap: wrap;
-    
-}
-
-.row1Image {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-}
-
-.row1 .row1Image .navesBanner {
-   width: 100%
-   
-}
-
-.row2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-}
-
-.bt1 {
-    background-color: darkgoldenrod;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    border: none;
-    border-radius: 6px;
-    gap: 10px;
-    margin: 10px;
-    font-size: 18px;
-    margin-bottom: 40px;
-
-}
-
-.cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    padding-top: 0px;
-    padding-bottom: 100px;
-
-}
-
-.cards .cardAvulso {
     padding: 20px;
-    width: 300px;
-    align-items: center;
-    gap: 10px;
-    align-content: space-around;
-    margin-bottom: 0px;
-
-=======
 }
 
-.menu nav a::after {
-    content: " ";
-    width: 0px;
-    height: 4px;
-    background-image: linear-gradient(45deg, rgb(111, 113, 57), #ffffff);
-    position: absolute;
-    top: 30px;
-    left: 0;
-    transition: width 0.5s;
+table {
+    width: 100%;
+    border-collapse: collapse; /* Alterado para collapse */
+    margin-top: 20px; /* Adicionado um margin-top para espaçamento entre a tabela e o conteúdo acima */
 }
 
-.menu nav a:hover::after {
-    width: 30px;
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
+table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
+td {
+    padding: 10px;
+    border: 2px solid #333;
+}
 
-
-
-
-
-
-
+tr {
+    margin-bottom: 10px;
+}
 
 footer {
     background-color: #000000;
     color: #fff;
-<<<<<<< HEAD
     padding: 20px; /* Ajustado para uma quantidade menor de preenchimento */
     text-align: center;
     display: flex;
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
-=======
-    padding: 20px; 
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     align-items: center;
 }
 
@@ -251,11 +144,4 @@ footer {
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
-<<<<<<< HEAD
 }
-
-
-
-=======
-}
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
