@@ -9,11 +9,7 @@
 
 .container {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
-=======
-    flex-direction: column; 
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -30,14 +26,6 @@ header {
 .title-text-container {
     text-align: center;
     margin: 20px 0;
-<<<<<<< HEAD
-=======
-}
-
-.title {
-    font-size: 2em;
-    color: #ffffff;
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
 }
 
 .text {
@@ -47,7 +35,6 @@ header {
     margin: auto;
 }
 
-<<<<<<< HEAD
 .title {
     font-size: 2em;
     color: #ffffff;
@@ -60,8 +47,6 @@ header {
     margin: auto;
 }
 
-=======
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
 .menu {
     width: 100%;
     margin-bottom: 0px;
@@ -76,7 +61,6 @@ header {
     font-size: 18px;
     position: relative;
     margin-bottom: auto;
-<<<<<<< HEAD
 }
 
 .menu nav a::after {
@@ -182,23 +166,6 @@ main {
     align-content: space-around;
     margin-bottom: 0px;
 
-=======
-}
-
-.menu nav a::after {
-    content: " ";
-    width: 0px;
-    height: 4px;
-    background-image: linear-gradient(45deg, rgb(111, 113, 57), #ffffff);
-    position: absolute;
-    top: 30px;
-    left: 0;
-    transition: width 0.5s;
-}
-
-.menu nav a:hover::after {
-    width: 30px;
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
 }
 
 
@@ -212,17 +179,10 @@ main {
 footer {
     background-color: #000000;
     color: #fff;
-<<<<<<< HEAD
     padding: 20px; /* Ajustado para uma quantidade menor de preenchimento */
     text-align: center;
     display: flex;
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
-=======
-    padding: 20px; 
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
     align-items: center;
 }
 
@@ -251,11 +211,7 @@ footer {
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
-<<<<<<< HEAD
 }
 
 
 
-=======
-}
->>>>>>> d081b4ed30f07130e879c636f0ff8e953e20f8df
