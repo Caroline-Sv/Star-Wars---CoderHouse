@@ -34,12 +34,12 @@ header {
     text-align: center;
     margin: 20px 0;
 }
-
-.text {
-    max-width: 800px;
-    color: #ffffff;
-    text-align: center;
-    margin: auto;
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
 }
 
 .title {
@@ -74,7 +74,7 @@ header {
     content: " ";
     width: 0px;
     height: 4px;
-    background-image: rgb(190, 184, 8);
+    background-image: linear-gradient(45deg, rgb(111, 113, 57), #ffffff);
     position: absolute;
     top: 30px;
     left: 0;

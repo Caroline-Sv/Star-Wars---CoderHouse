@@ -1,4 +1,3 @@
-alert("Bem-vindo/a")
 
 function mostrarPersonagensForca() {
     document.getElementById('personagensForca').style.display = 'table';
