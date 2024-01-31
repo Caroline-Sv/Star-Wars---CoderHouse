@@ -150,3 +150,12 @@ footer {
     text-decoration: none;
     margin: 0 20px;
 }
+.banner-naves{
+    width: 380px;
+    margin: 15px;
+}
+
+.banner-personagens{
+    width: 670px;
+    margin: 15px;
+}
