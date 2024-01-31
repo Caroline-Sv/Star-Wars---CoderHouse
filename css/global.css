@@ -9,7 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -33,6 +33,13 @@ header {
 .title-text-container {
     text-align: center;
     margin: 20px 0;
+}
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
 }
 
 .title {
