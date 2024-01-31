@@ -9,7 +9,8 @@
 
 .container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    align-items: center;
     justify-content: center;
     padding: 10px;
 }
@@ -20,6 +21,13 @@ header {
     width: 100%;
     background-image: url(/img/backgroud_header.png);
     margin: auto;
+}
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
 }
 
 .title-text-container {

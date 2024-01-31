@@ -22,6 +22,13 @@ header {
     background-image: url(/img/backgroud_header.png);
     margin: auto;
 }
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
+}
 
 .title-text-container {
     text-align: center;
