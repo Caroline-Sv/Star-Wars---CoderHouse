@@ -91,17 +91,23 @@ main {
 
 .img-row {
     display: flex ;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 20px;
     width: 100%
 }
-  
 
-.img-row img {
-    max-width: 48%;
-    flex: 1;
-    margin-right: 10px; 
+
+.img-row .banner-naves {
+    width: auto;
+    padding: 10px;
+
 }
+
+.img-row .banner-personagens {
+    width: 100%;
+    padding: 10px;
+}
+
 .img-filmes {
     margin-top: 20px;
     width: 100%

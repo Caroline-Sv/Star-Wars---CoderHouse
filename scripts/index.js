@@ -1,8 +1,4 @@
-alert("Bem-vindo/a")
+fucntion irParaPáginaNaves() {
 
-const btnClick = document.getElementById('btnClick')
-btnClick.addEventListener("click", acaoCLique)
-
-function acaoCLique() {
-    console.log("Pesquisar")
+    window.location.href = '';
 }
