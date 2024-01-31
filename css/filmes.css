@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    
+
 }
 
 header {
@@ -88,30 +90,26 @@ header {
     background-color: black;
     padding: 20px;
 }
- 
- .capa1 img{
-   
-    width: 100% ;
-    cursor: pointer;
-    background-size: cover;
-  
-
- }
- .campo {
-    margin-bottom: 15px;
-    color: #fff;
+table {
+    width: 100%;
+    border-collapse: collapse; /* Alterado para collapse */
+    margin-top: 20px; /* Adicionado um margin-top para espaçamento entre a tabela e o conteúdo acima */
 }
 
-label {
+table img {
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin-bottom: 5px;
-   
-}
-h1{
-    color: #fff;
 }
 
+td {
+    padding: 10px;
+    border: 2px solid #333;
+}
 
+tr {
+    margin-bottom: 10px;
+}
 
 footer {
     background-color: #000000;
@@ -138,3 +136,15 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.sociais2 button i {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
