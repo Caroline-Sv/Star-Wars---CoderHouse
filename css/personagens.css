@@ -84,7 +84,7 @@ main {
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(17, 17, 16);
     padding: 20px;
 }
 
@@ -92,6 +92,7 @@ table {
     width: 100%;
     border-collapse: collapse; /* Alterado para collapse */
     margin-top: 20px; /* Adicionado um margin-top para espaçamento entre a tabela e o conteúdo acima */
+
 }
 
 table img {

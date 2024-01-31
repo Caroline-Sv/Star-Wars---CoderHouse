@@ -9,7 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -26,6 +26,13 @@ header {
 .title-text-container {
     text-align: center;
     margin: 20px 0;
+}
+.logo img{
+    width:200px ;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0;
+    
 }
 
 .title {
@@ -72,10 +79,47 @@ header {
 }
 
 
+main {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-row {
+    display: flex ;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100%
+}
 
 
+.img-row .banner-naves {
+    width: auto;
+    padding: 10px;
 
+}
 
+.img-row .banner-personagens {
+    width: 100%;
+    padding: 10px;
+}
+
+.img-filmes {
+    margin-top: 20px;
+    width: 100%
+}
 
 
 
