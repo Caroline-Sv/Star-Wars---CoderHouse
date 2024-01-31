@@ -1,8 +1,11 @@
 alert("Bem-vindo/a")
 
-const btnClick = document.getElementById('btnClick')
-btnClick.addEventListener("click", acaoCLique)
+function mostrarPersonagensForca() {
+    document.getElementById('personagensForca').style.display = 'table';
+    document.getElementById('personagensSombrios').style.display = 'none';
+}
 
-function acaoCLique() {
-    console.log("Pesquisar")
+function mostrarPersonagensSombrio() {
+    document.getElementById('personagensForca').style.display = 'none';
+    document.getElementById('personagensSombrios').style.display = 'table';
 }
