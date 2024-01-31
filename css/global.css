@@ -71,11 +71,41 @@ header {
     width: 30px;
 }
 
+main {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
+.container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+.img-row {
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%
+}
+  
 
-
+.img-row img {
+    max-width: 48%;
+    flex: 1;
+    margin-right: 10px; 
+}
+.img-filmes {
+    margin-top: 20px;
+    width: 100%
+}
 
 
 
