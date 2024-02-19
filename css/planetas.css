@@ -9,7 +9,7 @@
 
 .container {
     display: flex;
-    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -106,13 +106,29 @@ main {
 
 .planets {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+    .planets {
+        grid-template-columns: repeat(2, 1fr); /* Mostrar 2 colunas em telas maiores que 768px */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .planets {
+        grid-template-columns: repeat(3, 1fr); /* Mostrar 3 colunas em telas maiores que 1024px */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .planets {
+        grid-template-columns: repeat(4, 1fr); /* Mostrar 4 colunas em telas maiores que 1280px */
+    }
+}
+
 .planet-card {
-    width: 100%;
     text-align: center;
     position: relative;
     display: flex;
@@ -121,7 +137,6 @@ main {
 }
 
 .planet-card img {
-    width: 100%;
     height: auto;
     border-radius: 8px;
 }
@@ -152,10 +167,10 @@ main {
 footer {
     background-color: #000000;
     color: #fff;
-    padding: 20px; /* Ajustado para uma quantidade menor de preenchimento */
+    padding: 20px;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
+    flex-direction: column;
     align-items: center;
 }
 
