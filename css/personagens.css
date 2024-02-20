@@ -98,9 +98,25 @@ main {
     color: white;
     border: none;
     cursor: pointer;
-}
+    border-radius: 20px;
 }
 
+
+#botaoForca {
+    background-color: black;
+}
+
+#botaoSombrio {
+    background-color: black;
+}
+
+#botaoForca:focus, #botaoForca:active, #botaoForca:hover {
+    background-color: gray;
+}
+
+#botaoSombrio:focus, #botaoSombrio:active, #botaoSombrio:hover {
+    background-color: gray;
+}
 
 
 
