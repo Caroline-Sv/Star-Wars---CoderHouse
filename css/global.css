@@ -88,7 +88,7 @@ main {
 .imagensHome {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     padding: 20px;
 }
 
@@ -100,7 +100,8 @@ main {
 
 .img-row {
     display: flex ;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     width:100%;
     
@@ -108,7 +109,7 @@ main {
 
 .img-row .banner-naves {
     width: auto;
-    padding: 10px;
+    padding-left: 20px;
 
 }
 
@@ -117,6 +118,11 @@ main {
     padding: 10px;
 }
 
+.img-row .banner-planetas {
+    max-width: 100%;
+    max-height: 400px;
+    padding-right: 20px;
+}
 .img-filmes {
     margin-top: 20px;
     width: 100%
