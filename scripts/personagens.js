@@ -15,3 +15,5 @@ function mostrarPersonagensSombrio() {
     document.getElementById("botaoForca").style.backgroundColor = "black";
     document.getElementById("botaoSombrio").style.backgroundColor = "gray";
 }
+
+
