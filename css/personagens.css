@@ -88,6 +88,38 @@ main {
     padding: 20px;
 }
 
+.button{
+    display: inline-block;
+}
+
+.button button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+#botaoForca {
+    background-color: black;
+}
+
+#botaoSombrio {
+    background-color: black;
+}
+
+#botaoForca:focus, #botaoForca:active, #botaoForca:hover {
+    background-color: gray;
+}
+
+#botaoSombrio:focus, #botaoSombrio:active, #botaoSombrio:hover {
+    background-color: gray;
+}
+
+
+
 table {
     width: 100%;
     border-collapse: collapse; /* Alterado para collapse */
@@ -103,7 +135,7 @@ table img {
 
 td {
     padding: 10px;
-    border: 2px solid #333;
+   
 }
 
 tr {
