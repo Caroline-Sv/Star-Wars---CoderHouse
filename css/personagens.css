@@ -22,7 +22,6 @@ header {
     background-image: url(/img/backgroud_header.png);
     margin: auto;
 }
-
 .title-text-container {
     text-align: center;
     margin: 20px 0;
@@ -84,7 +83,7 @@ main {
     flex-direction: column; /* Alterado para coluna para empilhar os elementos verticalmente */
     align-items: center;
     justify-content: center;
-    background-color: rgb(17, 17, 16);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
 }
 
