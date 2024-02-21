@@ -164,13 +164,14 @@ main {
     color: #555;
 }
 
+
 footer {
     background-color: #000000;
     color: #fff;
-    padding: 20px;
+    padding: 20px; 
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
