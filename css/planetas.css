@@ -19,7 +19,7 @@ header {
     background-color: black;
     box-shadow: 0px 3px 10px #464646;
     width: 100%;
-    background-image: url(/img/backgroud_header.png);
+    background-image: url(./img/backgroud_header.png);
     margin: auto;
 }
 
