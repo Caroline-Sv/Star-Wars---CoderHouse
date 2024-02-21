@@ -2,7 +2,7 @@ async function fetchAllPlanets() {
     try {
         let allPlanets = [];
 
-        let nextPage = 'http://swapi.dev/api/planets/';
+        let nextPage = 'https://swapi.dev/api/planets/';
 
         while (nextPage) {
             const response = await fetch(nextPage);
