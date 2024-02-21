@@ -100,11 +100,11 @@ main {
 
 .img-row {
     display: flex ;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     width:100%;
-    
 }
 
 .img-row .banner-naves {
